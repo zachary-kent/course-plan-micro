@@ -1,15 +1,15 @@
 <template>
-  <welcome-message class="welcome-message" />
+  <welcome class="welcome-message" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import WelcomeMessage from "./components/WelcomeMessage.vue";
+import Welcome from "./components/Welcome.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    WelcomeMessage,
+    Welcome,
   },
 });
 </script>
